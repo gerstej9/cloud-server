@@ -3,6 +3,10 @@
 # Code 301 Lab-02, Lab-03, Lab 05
 ## jQuery Selectors and Events
 
+## AWS Deployment
+* CLI URL: http://cloud-server-dev2.us-west-2.elasticbeanstalk.com/
+* AWS CONSOLE URL: http://galleryofhorns-env.eba-iukmfy7b.us-east-1.elasticbeanstalk.com/
+
 ### Collaborators
 * Nick Magruder
 * James Gerstenberger
