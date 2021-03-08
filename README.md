@@ -3,9 +3,20 @@
 # Code 301 Lab-02, Lab-03, Lab 05
 ## jQuery Selectors and Events
 
-## AWS Deployment
+## AWS Deployment URLs
 * CLI URL: http://cloud-server-dev2.us-west-2.elasticbeanstalk.com/
 * AWS CONSOLE URL: http://galleryofhorns-env.eba-iukmfy7b.us-east-1.elasticbeanstalk.com/
+
+## AWS Deployment Processes
+### AWS Console
+* To deploy in the console I first created an IAM user and allowed it permissions to AWSElasticBeanstalkFullAccess and AdministratorAccessElastic Beanstalk
+* I then zipped a folder of a previous express application I had built making sure to only include necesary files and omitting package-lock.json and node modules
+* I then created a new application with NodeJs as my platform and uploaded my zipped file
+
+### AWS CLI
+* I first downloaded the aws cli version 2 and the aws eb cli
+* After doing so I utilized the command ```eb init`` while in my repository folder and followed the steps provided
+* I then utilized the command ```eb create``` which created an environment for my application and launched it, providing a url upon completion
 
 ### Collaborators
 * Nick Magruder
